@@ -1,0 +1,767 @@
+@import url('https://fonts.googleapis.com/css?family=UnifrakturMaguntia');
+/*-----------------------------Fim do menu--------------------------------------*/
+.navbar{
+	background: rgb(144,8,15);
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .active > .nav-link{
+	color: #fff;
+}
+.no-margin{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+header div{
+	text-transform: uppercase;
+}
+.logo{
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 2.198rem;
+	letter-spacing: 1px; /*largura entre as letras*/
+}
+.logo-sm{
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 1.847rem;
+}
+/*---------------------------background-------------------------------------*/
+.fundo-principal{
+	margin-top: 3.36rem;
+}
+/*------------------------Sobre nos----------------------------*/
+.jumbotron{
+	text-align: justify;
+	color: #000;
+	margin-top: -0.99rem;
+}
+.jumbotron img{
+	width: 90px;
+	margin-top: -2rem;
+}
+.jumbotron h3{
+	margin-top: -3.5rem;
+	margin-left: 90px;
+}
+.jumbotron p{
+	margin-top: 2.5rem;
+}
+.sobreTitulo{
+	font-size: 1.42rem;
+}
+.botao{
+	margin-top: 2rem;
+	margin-bottom: -2rem;
+	font-weight: 700;
+	border-radius: 1px;
+}
+.botao1{
+	margin-top: 2rem;
+	font-weight: 700;
+	border-radius: 1px;
+}
+/*------------------------------Especialidades e serciços--------------*/
+.text-1{
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 2.8rem;
+	letter-spacing: 5px;
+	color: #fff;
+	background-image: linear-gradient(-90deg, rgb(51,55,57), rgb(19,12,14));
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 0;
+}
+.text-2{
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 2.7rem;
+	color: #fff;
+	background-image: linear-gradient(-90deg, rgb(51,55,57), rgb(19,12,14));
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 0;
+}
+.service{
+	background-image: linear-gradient(-90deg, rgb(51,55,57), rgb(19,12,14));
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.img1{
+	padding-top: 3.13rem;
+	width: 300px;
+}
+.img2{
+	padding-top: 2.7rem;
+	width: 200px;
+}
+.img3{
+	padding-top: 3rem;
+	width: 230px;
+}
+.mb-4{
+	margin-top: 1rem;
+}
+/*----------------------------nosso-time-------------------------------*/
+.nosso-time{
+	padding: 1.87rem 0 2.4rem;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	margin-top: 1rem;
+}
+.time{
+	display: inline-block;
+	width: 8.125rem;
+	height: 8.125rem;
+	margin-bottom: 50px;
+	position: relative;
+	z-index: 1;
+}
+.time:before{
+	content: "";
+	width: 100%;
+	background-image: linear-gradient(-90deg, rgb(51,55,57), rgb(19,12,14));
+	position: absolute;
+	bottom: 135%;
+	right: 0;
+	left: 0;
+	transform: scale(3);
+	transition: all 0.3s linear 0s;
+}
+.nosso-time:hover .time:before{
+	height: 100%;
+}
+.time:after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+    background-image: linear-gradient(-90deg, rgb(51,55,57), rgb(19,12,14));
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.time img{
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+	transform: scale(1);
+	transition: all 0.9s ease 0s;
+}
+.nosso-time:hover .time img{
+	box-shadow: 0 0 0 0.875rem #f7f5ec;
+	transform: scale(0.7);
+}
+.conteudo{
+	margin-bottom: 30px;
+}
+.titulo{
+	font-style: 1.375rem;
+	font-weight: 700;
+	color: #4e5052;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	margin-bottom: 5px;
+}
+.sub-titulo{
+	display: block;
+	font-size: 15px;
+	color: #4e5052;
+	text-transform: capitalize;
+}
+.social{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-image: linear-gradient(-90deg, rgb(51,55,57), rgb(19,12,14));
+	position: absolute;
+	bottom: -166px;
+	left: 0;
+	transition: all 0.5s ease 0s;
+}
+.nosso-time:hover .social{
+	bottom: 0;
+}
+.social li{
+	display: inline-block;
+}
+.social a{
+	display: block;
+	padding: 10px;
+	font-size: 16px;
+	margin-left: 10px;
+	color: #fff;
+	transition: all 0.3s ease 0s;
+}
+.social a:hover{
+	color: #000;
+	background: #f7f5ec;
+	text-decoration: none;
+}
+/*-----------------------------Fale consco----------------------*/
+.contatenos{
+	background-color: #191d20;
+	color: #fff;
+	margin-top: 1rem;
+}
+.faleconosco{
+	clear: both;
+	margin-bottom: 3rem;
+}
+.faleconosco h2{
+	margin-top: 3rem;
+	color: #fff;
+	text-align: center;
+	font-size: 3.125rem;
+	font-family: 'UnifrakturMaguntia', cursive;
+}
+.identificacao{
+	width: 100%;
+	border-radius: 10px;
+	height: 450px;
+	padding-left: 6px;
+	margin-bottom: -5rem;
+}
+.identificacao{
+	float: left;
+}
+.identificacao p{
+	font-size: 18px;
+}
+.message{
+	float: right;
+}
+#nome,
+#email,
+#mensagem{
+	font-size: 18px;
+	padding: 5px;
+	width: 90%;
+	resize:none;
+	background-color: transparent;
+	color: #fff;
+}
+#nome,
+#email{
+	width: 90%;
+	position: relative;
+}
+.botoes{
+	text-align: center;
+	clear: both;
+	margin-bottom: 1rem;
+}
+.enviar,
+.limpar{
+	font-weight: 700;
+	border-radius: 1px;
+	margin-left: 3px;
+}
+input#nome:valid,
+input#email:valid{
+	border: 1px solid #fff;
+}
+input#nome:invalid,
+input#email:invalid{
+	border: 1px solid #fff;
+}
+::placeholder{
+	color: #fff;
+};
+#mensagem{
+	font-family: arial;
+}
+/*---------------------------------------------------------------*/
+.formulario h2{
+	margin-top: 3rem;
+	font-weight: 400;
+}
+.formulario p{
+	margin-top: 2rem;
+	font-weight: 400;
+}
+.formulario1 h5{
+	margin-top: 3rem;
+	font-weight: 400;
+}
+.formulario1 p{
+	margin-top: 2rem;
+	font-weight: 400;
+}
+.endereco{
+	text-align: center;
+	position: relative;
+	margin-top: 2rem;
+}
+.endereco p{
+	display: block;
+	font-size: 15px;
+	color: #4e5052;
+}
+.icon{
+	display: inline-block;
+	width: 7.125rem;
+	height: 7.125rem;
+	border-radius: 50%;
+	border: 1px solid #ff0000;
+}
+.icon img{
+	width: 41px;
+    height: 41px;
+    margin-top: 30%;
+}
+.conteudo1{
+	margin-bottom: 2rem;
+}
+.conteudo1 h3{
+	margin-top: 1rem;
+    font-size: 1.17em;
+    margin-bottom: 10px;
+}
+/*-----------------------cardapio-------------------------------*/
+.cardapio-post-sectio{
+	padding: 10px 0 20px;
+	overflow: hidden;  
+	margin-top: -1rem;
+}
+.testo-principal{
+	padding-bottom: 10px;
+	font-family: 'UnifrakturMaguntia', cursive;
+}
+.testo-principal h3{
+	font-size: 2.5rem;
+}
+.cardapio{
+	margin-bottom: 5rem;
+	position: relative;
+}
+.cardapio .entrada-flutua{
+	position: absolute;
+	margin: 25px;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.cardapio .entrada-flutua .capa-flutuante{
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	bottom: 50%;
+	left: 0;
+	right: 0;
+	margin: 0 auto -75px;
+	z-index: 2;
+	border-radius: 300px;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+.cardapio:hover .entrada-flutua .capa-flutuante{
+	height: auto;
+	width: auto;
+	border-radius: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.cardapio:hover .nome{
+	top: auto;
+	bottom: 0;
+	margin-bottom: 20px;
+}
+.cardapio .nome{
+ 	position: absolute;
+ 	color: red;
+ 	text-align: center;
+ 	text-transform: uppercase;
+ 	left: 0;
+ 	right: 0;
+ 	top: 50%;
+ 	font-size: 20px;
+ 	font-weight: 400;
+ 	letter-spacing: 2px;
+ 	z-index: 3;
+ 	margin: -12px auto 0;
+ }
+.cardapio .informacao{
+  	position: absolute;
+  	top: 100%;
+  	margin-top: -15px;
+  	left: 0;
+  	right: 0;
+  	text-align: center;
+  	z-index: 4;
+}
+.cardapio:hover .informacao{
+  	top: 0;
+  	margin-top: 12px;
+}
+.cardapio .informacao img{
+  	border: 3px solid red;
+  	border-radius: 200px;
+  	width: 100px;
+  	height: 100px;
+  	margin: 0 auto 18px;
+}
+.cardapio:hover .informacao h2 a,
+.cardapio:hover .informacao h2,
+.cardapio:hover .informacao p{
+  	color: white !important;
+}
+.cardapio .informacao p{
+    font-size: 13px;
+    font-size: italic;
+}
+.cardapio .informacao h2{
+  	color: #000;
+  	text-decoration: none;
+  	font-size: 1.5rem;
+}
+.cardapio .informacao .testo-fultuante,
+.cardapio .informacao .ingredientes{
+  	display: none;
+  	margin-bottom: 30px;
+}
+.cardapio:hover .informacao .testo-fultuante,
+.cardapio .informacao .ingredientes{
+  	display: block;
+}
+.designacao.active, .real{
+  	background: #000 !important;
+}
+.cardapio .entrada-flutua .capa-flutuante,
+.cardapio:hover .entrada-flutua .capa-flutuante,
+.cardapio .informacao,
+.cardapio .nome{
+  	transition: ease-in-out 0.3s;
+}
+/*--------------------------------------------------------*/
+.cardapio .informacao1{
+  	position: absolute;
+  	top: 100%;
+  	margin-top: -15px;
+  	left: 0;
+  	right: 0;
+  	text-align: center;
+  	z-index: 4;
+}
+.cardapio .informacao1 h2{
+	margin-top: 20px;
+}
+.cardapio:hover .informacao1{
+  	top: 0;
+  	margin-top: 12px;
+}
+.cardapio .informacao1 img{
+  	border: 3px solid red;
+  	border-radius: 200px;
+  	width: 100px;
+  	height: 100px;
+  	margin: 0 auto 18px;
+}
+.cardapio:hover .informacao1 h2 a,
+.cardapio:hover .informacao1 h2,
+.cardapio:hover .informacao1 p{
+  	color: white !important;
+}
+.cardapio .informacao1 p{
+    font-size: 13px;
+    font-size: italic;
+}
+.cardapio .informacao1 h2{
+  	color: #000;
+  	text-decoration: none;
+  	font-size: 1.5rem;
+}
+.cardapio .informacao1 .testo-fultuante,
+.cardapio .informacao1 .ingredientes{
+  	display: none;
+  	margin-bottom: 30px;
+}
+.cardapio:hover .informacao1 .testo-fultuante,
+.cardapio .informacao1 .ingredientes{
+  	display: block;
+}
+.cardapio .entrada-flutua .capa-flutuante,
+.cardapio:hover .entrada-flutua .capa-flutuante,
+.cardapio .informacao1,
+.cardapio .nome{
+  	transition: ease-in-out 0.3s;
+}
+  /*------------------------ faça você mesmo------------------------------*/
+.faca-voce-mesmo{
+  	margin-bottom: -1rem;
+}
+.face-voce{
+  	background-image: linear-gradient(-90deg, rgb(51,55,57), rgb(19,12,14));
+  	font-family: 'UnifrakturMaguntia', cursive;
+  	color: #fff;
+}
+.face-voce .imga1{
+  	width: 17%;
+}
+/*------------------------------cadastre-se-------------------------------*/
+.cadastre-se{
+	margin-top: -1rem;
+}
+.dados{
+	clear: both;
+	margin-bottom: 3rem;
+}
+.dados h2{
+	font-family: 'UnifrakturMaguntia', cursive;
+	margin-top: 3rem;
+	text-align: left;
+	font-size: 3rem;
+}
+#inputNome,
+#inputCpf,
+#inputNascimento,
+#inputEmail,
+#inputPassword,
+#inputAddress,
+#inputAddress,
+#inputCity,
+#inputCEP,
+#inputFone{
+	border: 1px solid #000;
+	border-radius: 0;
+}
+.botoes-cadastrar{
+	text-align: center;
+	clear: both;
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+}
+.logar{
+	margin-top: 8rem;
+}
+.logar .inscrever{
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+}
+.logar-pequeno .inscrever{
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+}
+.cadastre{
+	margin-top: -1rem;
+}
+.inscrever-se a{
+	text-align: center;
+	font-weight: 700;
+	border-radius: 1px;
+	margin-top: -4px;
+}
+.cadastre .inscrever-se{
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+}
+.cadastre-pequeno .inscrever-se{
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+}
+/*------------------------------ compras --------------------------------*/
+.fundo-principal-compra{
+	margin-top: 2.9rem;
+}
+.logo-compra{
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 2.198rem;
+	letter-spacing: 1px; /*largura entre as letras*/
+}
+.logo-compra-sm{
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 1.5rem;
+}
+.compras{
+	background-image: linear-gradient(-90deg, rgb(51,55,57), rgb(19,12,14));
+	color: #fff;
+}
+.Pedido h2{
+	font-family: 'UnifrakturMaguntia', cursive;
+	margin-bottom: 1rem;
+	font-size: 2.5rem;
+}
+.Pedido-pequeno h2{
+	font-family: 'UnifrakturMaguntia', cursive;
+	margin-bottom: 1rem;
+	font-size: 2rem;
+}
+.hamburgueres{
+	border-left: 6px solid red;
+	border-bottom: 1px solid red;
+	margin-bottom: 1rem;
+}
+.form-check{
+	margin-top: 2.6rem;
+}
+.form-check input{
+	width: 15px;
+	height: 15px;
+}
+.form-check-md input{
+	width: 15px;
+	height: 15px;
+}
+.pedir{
+	text-align: center;
+	clear: both;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.pedir-md button{
+	font-weight: 700;
+	border-radius: 1px;
+	margin-bottom: 1.5rem;
+}
+.comprar{
+	border-left: 6px solid red;
+	border-bottom: 1px solid red;
+	margin-bottom: 1rem;
+	color: #000;
+}
+/*--------------------------footer-------------------------------*/
+#footer{
+	background-color: #000;
+	color: #fff;
+	padding: 0 0 30px 0;
+	font-size: 14px;
+}
+.footer-top{
+	background-color: #191d20;
+	padding: 60px 0 30px 0;
+}
+.footer-info{
+	margin-bottom: 30px;
+}
+.footer-info h3{
+	font-size: 34px;
+	margin: 0 0 20px 0;
+	padding: 2px 0 2px 0;
+	line-height: 1;
+	font-weight: 400;
+	letter-spacing: 3px;
+	font-family: 'UnifrakturMaguntia', cursive;
+}
+.footer-info span{
+	text-transform: uppercase;
+	font-weight: 700;
+	
+}
+.footer-info p{
+	font-size: 13px;
+	line-height: 24px;
+}
+.localizacao button{
+	width: 35%;
+	padding: 4.9px 0;
+	font-weight: 700;
+	border-radius: 1px;
+	margin-top: -4px;
+}
+.localizacao-mapa button{
+	font-weight: 700;
+	border-radius: 1px;
+	margin-top: -4px;
+}
+.map-container-9{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-9 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+.footer-top h4{
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	position: relative;
+	padding-bottom: 10px;
+}
+.footer-links{
+	margin-bottom: 30px;
+}
+.footer-links ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.footer-links ul li{
+	padding: 8px 0;
+}
+.footer-links ul li:first-child{
+	padding-top: 0;
+}
+.footer-links ul a{
+	color: #ecf5ff;
+	text-decoration: none;
+}
+.footer-links ul a:hover{
+	margin-bottom: 30px;
+}
+.footer-contact{
+	margin-bottom: 30px;
+}
+.footer-contact p{
+	line-height: 26px;
+}
+.social-links a{
+	font-size: 18px;
+	display: inline-block;
+	background: #000;
+	color: #fff;
+	line-height: 1;
+	padding: 8px 0;
+	margin-right: 19px;
+	border-radius: 50%;
+	text-align: center;
+	width: 36px;
+	height: 36px;
+	transition: 0.3s;
+}
+.dungeon{
+	margin-bottom: 30px;
+}
+.inscrever a{
+	width: 35%;
+	padding: 4.9px 0;
+	text-align: center;
+	font-weight: 700;
+	border-radius: 1px;
+	margin-top: -4px;
+}
+#email-footer{
+	font-size: 15.5px;
+	padding: 5px;
+	width: 62%;
+	resize:none;
+	background-color: transparent;
+	color: #fff;
+}
+.copyright{
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 30px;
+}
+a[href="#top"]{
+    padding:10px;
+    position:fixed;
+    top: 85%;
+    right:10px;
+    display:none;
+    font-size: 30px;
+    color: red;
+}
+a[href="#top"]:hover{
+    text-decoration:none;
+}
